@@ -1,0 +1,45 @@
+# ROS 2 / colcon: archivos generados al compilar el workspace.
+build/
+install/
+log/
+
+# Python.
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Entornos virtuales.
+.venv/
+venv/
+env/
+ENV/
+
+# Variables de entorno y secretos locales.
+.env
+.env.*
+!.env.example
+
+# VS Code y otros IDEs.
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+.idea/
+
+# Docker y herramientas locales.
+docker-compose.override.yml
+
+# Archivos temporales del sistema operativo.
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.swp
+*.swo
+*~
